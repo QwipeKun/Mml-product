@@ -91,7 +91,6 @@ let MainBlockOne = () => {
               <div className={s.newOrderTextContainer}>
                 <div className={s.newOrderText}>Новый заказ</div>
               </div>
-              
               <div className={s.orderNumberContainer}>
                 <div>Заказ #IQR000000289</div>
                 <div>г.Москва,ул. Коломенская, д.28/7</div>
