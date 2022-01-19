@@ -182,19 +182,22 @@
     font-size: 14px;
     color: #8A9AAF;
 }
-.mainConinerOrder{
+
+.mainConinerOrder {
     margin-bottom: 30px;
     margin-top: 10px;
     box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.178);
 }
-.mainBlocksOrder{
+
+.mainBlocksOrder {
     display: flex;
     flex-direction: row;
     width: 374px;
     height: 130px;
 
 }
-.newOrderTextContainer{
+
+.newOrderTextContainer {
     height: 130px;
     width: 26px;
     display: flex;
@@ -205,13 +208,13 @@
 
 
 
-.newOrderText{
+.newOrderText {
     color: #FFD600;
     font-size: 11px;
     writing-mode: vertical-lr;
 }
 
-.orderNumberContainer{
+.orderNumberContainer {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -225,7 +228,7 @@
     border-radius: 5px;
 }
 
-.priceContainer{
+.priceContainer {
     margin-left: 20px;
     display: flex;
     width: 139px;
@@ -234,54 +237,57 @@
     font-size: 11px;
 }
 
-.priceValueBlock{
+.priceValueBlock {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.priceValue{
+.priceValue {
     color: #FFD600;
 }
 
-.ValueBlock{
+.ValueBlock {
     padding-top: 8px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.boldValue{
+.boldValue {
     font-weight: bolder;
 }
-.borderSettings{
+
+.borderSettings {
     display: flex;
     justify-content: center;
     width: 350px;
 }
-.border{
+
+.border {
     width: 40px;
     padding-right: 24px;
 }
-.conrainerO{
+
+.conrainerO {
     display: flex;
     flex-direction: row;
 }
 
-.containerOrderBlocks{
+.containerOrderBlocks {
     display: flex;
     flex-direction: column;
 }
 
 /* block 2 */
 
-.newOrderTextTwoBlock{
+.newOrderTextTwoBlock {
     color: #0066FF;
     font-size: 11px;
     writing-mode: vertical-lr;
 }
 
-.newOrderTextContainerTwo{
+.newOrderTextContainerTwo {
     height: 130px;
     width: 26px;
     display: flex;
@@ -290,7 +296,7 @@
     justify-content: center;
 }
 
-.priceValueBlue{
+.priceValueBlue {
     color: #0066FF;
 }
 
@@ -298,7 +304,7 @@
 /*                блок мониторинга                  */
 
 
-.taskAllBlocksContainer{
+.taskAllBlocksContainer {
     margin-left: 30px;
     font-family: 'Raleway', sans-serif;
     width: 374px;
@@ -306,9 +312,33 @@
     padding-top: 30px;
 }
 
-.taskBlockMonitor{
+.taskBlockMonitor {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
+.mainBlockMonitoring {
+    margin-bottom: 30px;
+    margin-top: 10px;
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.178);
+}
+
+.mainContainerMonitoring {
+    display: flex;
+    flex-direction: row;
+    width: 374px;
+    height: 130px;
+}
+.childMainBlockMonitoring{
+    display: flex;
+    flex-direction: row;
+}
+.server{
+    width: 70px;
+    height: 82px;
+}
+
+.textBlock{
+    border: 1px solid;
+}

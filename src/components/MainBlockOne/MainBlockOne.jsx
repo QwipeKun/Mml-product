@@ -5,6 +5,7 @@ import circle from "./../../svg/circle.svg";
 import score from "./../../svg/score.svg";
 import border from "./../../svg/border.svg";
 import borderBlue from "./../../svg/borderBlue.svg";
+import server from "./../../svg/server.svg";
 
 let MainBlockOne = () => {
   return (
@@ -191,22 +192,33 @@ let MainBlockOne = () => {
               <div className={s.showAll}> Модерация </div>
               <div className={s.showAll}>Посмотреть все</div>
             </div>
-            <div className={s.mainConinerOrder}>
-              <div className={s.mainBlocksOrder}>
+            <div className={s.mainBlockMonitoring}>
+              <div className={s.mainContainerMonitoring}>
+                <div className={s.newOrderTextContainerTwo}>
+                  <div className={s.newOrderTextTwoBlock}>ТОП Марки</div>
+                </div>
+                <div className={s.childMainBlockMonitoring}>
+                  <div>
+                    <img className={s.sever} src={server} rel="server" />
+                  </div>
+                  <div className={s.monitoringContainer}>
+                    <div className={s.textBlock}>
+                      adad
+                    </div>
+                  </div>
+                </div>
+                <div></div>
+              </div>
+            </div>
+            <div className={s.mainBlockMonitoring}>
+              <div className={s.mainContainerMonitoring}>
                 <div className={s.newOrderTextContainerTwo}>
                   <div className={s.newOrderTextTwoBlock}>ТОП Марки</div>
                 </div>
               </div>
             </div>
-            <div className={s.mainConinerOrder}>
-              <div className={s.mainBlocksOrder}>
-                <div className={s.newOrderTextContainerTwo}>
-                  <div className={s.newOrderTextTwoBlock}>ТОП Марки</div>
-                </div>
-              </div>
-            </div>
-            <div className={s.mainConinerOrder}>
-              <div className={s.mainBlocksOrder}>
+            <div className={s.mainBlockMonitoring}>
+              <div className={s.mainContainerMonitoring}>
                 <div className={s.newOrderTextContainerTwo}>
                   <div className={s.newOrderTextTwoBlock}>ТОП Марки</div>
                 </div>
