@@ -1,0 +1,91 @@
+.MainContainer{
+    display: flex;
+    background: rgba(255, 255, 255, 0.336);
+    width: 100%;
+    height: 60px;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
+
+.e{
+    display: flex;
+
+}
+.TitleContainer{
+    display: flex;
+    align-items:center ;
+    padding-left: 10px;
+}
+
+.Title{
+    font-family: 'Nanum Gothic', sans-serif;
+    width: 161px;
+    height: 30px;
+    font-size: 31px;
+    line-height: 30px;
+    align-items: center;
+}
+
+.logo{
+    padding: 13px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.items{
+
+    margin: 15px;
+    height: 100%;
+}
+.item{
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+
+}
+.stick{
+
+}
+
+.searchBlock{
+    display: flex;
+    align-items: center;
+}
+
+.searchItem{
+    width: 15px;
+    height: 15px;
+    padding-right:10px ;
+}
+
+.search{
+    font-family: 'Raleway', sans-serif;
+    border: 0;
+}
+.avatarBlock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 21px;
+    padding-top: 2px;
+}
+.bellBlock{
+    display: flex;
+    align-items: center;
+    padding-top: 2px;
+}
+
+.bell{
+    width: 24px;
+    height: 24px;
+    padding-right: 30px;
+}
+.avatar{
+    width: 34px;
+    height: 34px;
+    border-radius: 50px;
+}
