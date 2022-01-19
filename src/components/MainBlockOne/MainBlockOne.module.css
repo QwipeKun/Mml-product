@@ -179,6 +179,7 @@
 }
 
 .showAll {
+    font-size: 14px;
     color: #8A9AAF;
 }
 .mainConinerOrder{
@@ -198,7 +199,7 @@
     width: 26px;
     display: flex;
     align-items: center;
-    border-right: dashed 1px #FFD600;
+    border-right: dashed 1px #ffd5004b;
     justify-content: center;
 }
 
@@ -285,10 +286,29 @@
     width: 26px;
     display: flex;
     align-items: center;
-    border-right: dashed 1px #0066FF;
+    border-right: dashed 1px #0066ff2a;
     justify-content: center;
 }
 
 .priceValueBlue{
     color: #0066FF;
 }
+
+
+/*                блок мониторинга                  */
+
+
+.taskAllBlocksContainer{
+    margin-left: 30px;
+    font-family: 'Raleway', sans-serif;
+    width: 374px;
+    height: 480px;
+    padding-top: 30px;
+}
+
+.taskBlockMonitor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+

@@ -4,7 +4,7 @@ import iconSettings from "./../../svg/IconSettings.svg";
 import circle from "./../../svg/circle.svg";
 import score from "./../../svg/score.svg";
 import border from "./../../svg/border.svg";
-import borderBlue from "./../../svg/borderBlue.svg"
+import borderBlue from "./../../svg/borderBlue.svg";
 
 let MainBlockOne = () => {
   return (
@@ -95,7 +95,7 @@ let MainBlockOne = () => {
               <div className={s.containerOrderBlocks}>
                 <div className={s.conrainerO}>
                   <div className={s.orderNumberContainer}>
-                    <div  className={s.boldValue}>Заказ #IQR000000289</div>
+                    <div className={s.boldValue}>Заказ #IQR000000289</div>
                     <div>г.Москва,ул. Коломенская, д.28/7</div>
                     <dvi>01.12.2021 - 18:30</dvi>
                   </div>
@@ -126,7 +126,7 @@ let MainBlockOne = () => {
               <div className={s.containerOrderBlocks}>
                 <div className={s.conrainerO}>
                   <div className={s.orderNumberContainer}>
-                    <div  className={s.boldValue}>Заказ #IQR000000289</div>
+                    <div className={s.boldValue}>Заказ #IQR000000289</div>
                     <div>г.Москва,ул. Коломенская, д.28/7</div>
                     <dvi>01.12.2021 - 18:30</dvi>
                   </div>
@@ -157,7 +157,7 @@ let MainBlockOne = () => {
               <div className={s.containerOrderBlocks}>
                 <div className={s.conrainerO}>
                   <div className={s.orderNumberContainer}>
-                    <div  className={s.boldValue}>Заказ #IQR000000289</div>
+                    <div className={s.boldValue}>Заказ #IQR000000289</div>
                     <div>г.Москва,ул. Коломенская, д.28/7</div>
                     <dvi>01.12.2021 - 18:30</dvi>
                   </div>
@@ -181,10 +181,40 @@ let MainBlockOne = () => {
             </div>
           </div>
         </div>
-        <div></div>
       </div>
-      <div></div>
-      <div></div>
+      <div>
+        {/* block monitor */}
+        <div className={s.taskAllBlocksContainer}>
+          <div>
+            <div className={s.taskBlockMonitor}>
+              <div className={s.activeOrder}>Заказы (3)</div>
+              <div className={s.showAll}> Модерация </div>
+              <div className={s.showAll}>Посмотреть все</div>
+            </div>
+            <div className={s.mainConinerOrder}>
+              <div className={s.mainBlocksOrder}>
+                <div className={s.newOrderTextContainerTwo}>
+                  <div className={s.newOrderTextTwoBlock}>ТОП Марки</div>
+                </div>
+              </div>
+            </div>
+            <div className={s.mainConinerOrder}>
+              <div className={s.mainBlocksOrder}>
+                <div className={s.newOrderTextContainerTwo}>
+                  <div className={s.newOrderTextTwoBlock}>ТОП Марки</div>
+                </div>
+              </div>
+            </div>
+            <div className={s.mainConinerOrder}>
+              <div className={s.mainBlocksOrder}>
+                <div className={s.newOrderTextContainerTwo}>
+                  <div className={s.newOrderTextTwoBlock}>ТОП Марки</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
