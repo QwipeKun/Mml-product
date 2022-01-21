@@ -5,7 +5,7 @@
 }
 
 .mainOfficeBlock {
-    margin: 30px;
+    margin: 30px 30px 30px 56px;
     max-width: 350px;
     max-height: 480px;
 }
@@ -408,6 +408,9 @@
 }
 
 .mainContainerChoseBlocks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin-top: 10px;
     width: 602px;
     height: 450px;
@@ -434,3 +437,99 @@
     padding: 7px 10px 7px 10px;
 }
 
+.cityContainer{
+    border-bottom: 0.5px solid rgba(0, 102, 255, 0.5);
+    display: flex;
+    width: 602px;
+    height: 80px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cityBlocks{
+    display: flex;
+    align-items: center;
+
+}
+
+.numberCityPosition{
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.cityPhotoContainer{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.cityLogo{
+    margin-top: 10px;
+}
+
+.premiumStatus{
+    font-size: 10px;
+    background-image: linear-gradient(43deg, #c2c1c1 0%, #888888 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.lineGradient{
+    width: 5px;
+    height: 80px;
+    background: linear-gradient(180deg, #C0C0C0 0%, #DCDCDC 100%);
+}
+
+.cityName{
+    color: #000000;
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+
+.fullCityName{
+    color: rgba(0, 102, 255, 0.5);
+    font-size: 12px;
+}
+
+.choseBlock{
+    display: flex;
+    align-items: center;
+    
+}
+
+.choseText{
+    background-image: linear-gradient(43deg, #0066FF 50%, #0066FF 5%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: rotate(-90deg);
+    font-size: 10px;
+    padding-top: 20px ;
+
+}
+
+/* Остальные блоки Выбора Городов 1,3,4,5*/
+
+.lineGradientOne{
+    width: 5px;
+    height: 80px;
+    background: linear-gradient(180deg, #FFD700 0%, #FFEA77 100%);
+}
+
+.premiumStatusGold{
+    font-size: 10px;
+    background-image: linear-gradient(43deg, #FFD700 100%, #FFEA77 0%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.premiumStatusIron{
+    font-size: 10px;
+    color: #C0C0C0;
+}
+
+.lineGradientIron{
+    width: 5px;
+    height: 80px;
+    background-color: #C0C0C0;
+}
