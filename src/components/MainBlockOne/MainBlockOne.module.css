@@ -394,3 +394,43 @@
 .dateText{
     margin-right: 60px ;
 }
+/*            Выбор города               */
+.mainContainerChoseCity{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family:  'Raleway', sans-serif;
+    min-width: 602px;
+}
+
+.choseContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainContainerChoseBlocks{
+    margin-top: 10px;
+    width: 602px;
+    height: 450px;
+    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.178);
+}
+
+.searchContainer{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchBlock{
+    display: flex;
+    width: 582px;
+    height: 30px;
+    align-items: center;
+    color: #0066FF;
+    border: #0066FF 1px solid;
+}
+
+.searchTwo{
+    padding: 7px 10px 7px 10px;
+}
+

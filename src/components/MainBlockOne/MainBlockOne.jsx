@@ -8,6 +8,7 @@ import borderBlue from "./../../svg/borderBlue.svg";
 import server from "./../../svg/server.svg";
 import lineGR from "./../../svg/lineGR.svg";
 import calendar from "./../../svg/calendar.svg";
+import searchTwo from "./../../svg/searchTwo.svg";
 
 let MainBlockOne = () => {
   return (
@@ -207,7 +208,9 @@ let MainBlockOne = () => {
                     <div className={s.monitoringTextContainer}>
                       <div className={s.textBlock}>600 ₽ за прохождение</div>
                     </div>
-                    <div className={s.photoMonitoringTitle}>Фото мониторинг</div>
+                    <div className={s.photoMonitoringTitle}>
+                      Фото мониторинг
+                    </div>
                     <div className={s.progressTitle}>
                       <div>Прогресс</div>
                       <div>1</div>
@@ -244,7 +247,9 @@ let MainBlockOne = () => {
                     <div className={s.monitoringTextContainer}>
                       <div className={s.textBlock}>600 ₽ за прохождение</div>
                     </div>
-                    <div className={s.photoMonitoringTitle}>Фото мониторинг</div>
+                    <div className={s.photoMonitoringTitle}>
+                      Фото мониторинг
+                    </div>
                     <div className={s.progressTitle}>
                       <div>Прогресс</div>
                       <div>1</div>
@@ -281,7 +286,9 @@ let MainBlockOne = () => {
                     <div className={s.monitoringTextContainer}>
                       <div className={s.textBlock}>600 ₽ за прохождение</div>
                     </div>
-                    <div className={s.photoMonitoringTitle}>Фото мониторинг</div>
+                    <div className={s.photoMonitoringTitle}>
+                      Фото мониторинг
+                    </div>
                     <div className={s.progressTitle}>
                       <div>Прогресс</div>
                       <div>1</div>
@@ -303,6 +310,23 @@ let MainBlockOne = () => {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* Блок выбора города */}
+      <div className={s.mainContainerChoseCity}>
+        <div className={s.choseContainer}>
+          <div className={s.activeOrder}>Выбрать ТТ</div>
+          <div className={s.showAll}>Посмотреть все</div>
+        </div>
+        <div className={s.mainContainerChoseBlocks}>
+          <div className={s.searchContainer}>
+            <div className={s.searchBlock}>
+              <div>
+                <img className={s.searchTwo} src={searchTwo} rel="searchTwo" />
+              </div>
+              <div>Введите адрес или название магазина</div>
             </div>
           </div>
         </div>
