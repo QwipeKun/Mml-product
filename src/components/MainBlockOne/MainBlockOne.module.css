@@ -8,6 +8,7 @@
     margin: 30px 30px 30px 56px;
     max-width: 350px;
     max-height: 480px;
+    background-size: cover;
 }
 
 .officePick {
@@ -206,8 +207,6 @@
     border-right: dashed 1px #ffd5004b;
     justify-content: center;
 }
-
-
 
 .newOrderText {
     color: #FFD600;
@@ -533,3 +532,12 @@
     height: 80px;
     background-color: #C0C0C0;
 }
+
+.cityContainerFive{
+    display: flex;
+    width: 602px;
+    height: 80px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+

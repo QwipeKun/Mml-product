@@ -430,7 +430,7 @@ let MainBlockOne = () => {
               </div>
               {/* Блок 5 Выбор городов */}
             </div>
-            <div className={s.cityContainer}>
+            <div className={s.cityContainerFive}>
               <div className={s.cityBlocks}>
                 <div className={s.numberCityPosition}>5</div>
                 <div className={s.cityPhotoContainer}>
