@@ -1,0 +1,161 @@
+.upperBlocksOrder {
+    font-family: 'Raleway', sans-serif;
+    width: 374px;
+    height: 480px;
+    padding-top: 30px;
+}
+
+.activeOrderBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.activeOrder {
+    color: #0066FF;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+
+
+.showAll {
+    font-size: 14px;
+    color: #8A9AAF;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.showAll:after {
+    background-color: rgba(0, 102, 255, 0.9);;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    color: #000000;
+}
+.showAll:hover:after,
+.showAll:focus:after {
+    width: 100%;
+}
+
+
+.mainConinerOrder {
+    margin-bottom: 30px;
+    margin-top: 10px;
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.178);
+}
+
+.mainBlocksOrder {
+    display: flex;
+    flex-direction: row;
+    width: 374px;
+    height: 130px;
+
+}
+
+.newOrderTextContainer {
+    height: 130px;
+    width: 26px;
+    display: flex;
+    align-items: center;
+    border-right: dashed 1px #ffd5004b;
+    justify-content: center;
+}
+
+.newOrderText {
+    color: #FFD600;
+    font-size: 11px;
+    writing-mode: vertical-lr;
+}
+
+.orderNumberContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    width: 147px;
+    height: 100px;
+    margin: 10px;
+    font-size: 11px;
+    border-top: 2px #E7E7E7 solid;
+    border-left: 2px #E7E7E7 solid;
+    border-radius: 5px;
+}
+
+.priceContainer {
+    margin-left: 20px;
+    display: flex;
+    width: 139px;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 11px;
+}
+
+.priceValueBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.priceValue {
+    color: #FFD600;
+}
+
+.ValueBlock {
+    padding-top: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.boldValue {
+    font-weight: bolder;
+}
+
+.borderSettings {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+}
+
+.border {
+    width: 40px;
+    padding-right: 24px;
+}
+
+.conrainerO {
+    display: flex;
+    flex-direction: row;
+}
+
+.containerOrderBlocks {
+    display: flex;
+    flex-direction: column;
+}
+
+/* block 2 */
+
+.newOrderTextTwoBlock {
+    color: #0066FF;
+    font-size: 11px;
+    writing-mode: vertical-lr;
+}
+
+.newOrderTextContainerTwo {
+    height: 130px;
+    width: 26px;
+    display: flex;
+    align-items: center;
+    border-right: dashed 1px #0066ff2a;
+    justify-content: center;
+}
+
+.priceValueBlue {
+    color: #0066FF;
+}
+
