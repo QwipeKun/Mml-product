@@ -1,4 +1,5 @@
 import office from "./../../svg/Office.jpg";
+import Order from "../Order/Order";
 import s from "./MainBlockOne.module.css";
 import iconSettings from "./../../svg/IconSettings.svg";
 import circle from "./../../svg/circle.svg";
@@ -10,11 +11,10 @@ import lineGR from "./../../svg/lineGR.svg";
 import calendar from "./../../svg/calendar.svg";
 import searchTwo from "./../../svg/searchTwo.svg";
 import cityLogo from "./../../svg/cityLogo.svg";
-import logoCityTwo from "./../../svg/logoCityTwo.svg"
-import logoCityThree from "./../../svg/logoCityThree.svg"
-import logoCityFour from "./../../svg/logoCityFour.svg"
-import logoCityFive from "./../../svg/logoCityFive.svg"
-
+import logoCityTwo from "./../../svg/logoCityTwo.svg";
+import logoCityThree from "./../../svg/logoCityThree.svg";
+import logoCityFour from "./../../svg/logoCityFour.svg";
+import logoCityFive from "./../../svg/logoCityFive.svg";
 
 let MainBlockOne = () => {
   return (
@@ -91,107 +91,9 @@ let MainBlockOne = () => {
           </div>
         </div>
       </div>
-      <div className={s.upperBlocksOrder}>
-        <div>
-          <div className={s.activeOrderBlock}>
-            <div className={s.activeOrder}>Активные заказы (4)</div>
-            <div className={s.showAll}>Посмотреть все</div>
-          </div>
-          <div className={s.mainConinerOrder}>
-            <div className={s.mainBlocksOrder}>
-              <div className={s.newOrderTextContainer}>
-                <div className={s.newOrderText}>Новый заказ</div>
-              </div>
-              <div className={s.containerOrderBlocks}>
-                <div className={s.conrainerO}>
-                  <div className={s.orderNumberContainer}>
-                    <div className={s.boldValue}>Заказ #IQR000000289</div>
-                    <div>г.Москва,ул. Коломенская, д.28/7</div>
-                    <dvi>01.12.2021 - 18:30</dvi>
-                  </div>
-                  <div className={s.priceContainer}>
-                    <div className={s.priceValueBlock}>
-                      <div className={s.priceValue}>Цена:</div>
-                      <div className={s.boldValue}>140 000,00 ₽</div>
-                    </div>
-                    <div>
-                      <div className={s.ValueBlock}>
-                        <div className={s.priceValue}>Количество SKU:</div>
-                        <div className={s.boldValue}>300 шт</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className={s.borderSettings}>
-                  <img className={s.border} src={border} rel="border" />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className={s.mainConinerOrder}>
-            <div className={s.mainBlocksOrder}>
-              <div className={s.newOrderTextContainerTwo}>
-                <div className={s.newOrderTextTwoBlock}>Заказ принят</div>
-              </div>
-              <div className={s.containerOrderBlocks}>
-                <div className={s.conrainerO}>
-                  <div className={s.orderNumberContainer}>
-                    <div className={s.boldValue}>Заказ #IQR000000289</div>
-                    <div>г.Москва,ул. Коломенская, д.28/7</div>
-                    <dvi>01.12.2021 - 18:30</dvi>
-                  </div>
-                  <div className={s.priceContainer}>
-                    <div className={s.priceValueBlock}>
-                      <div className={s.priceValueBlue}>Цена:</div>
-                      <div className={s.boldValue}>140 000,00 ₽</div>
-                    </div>
-                    <div>
-                      <div className={s.ValueBlock}>
-                        <div className={s.priceValueBlue}>Количество SKU:</div>
-                        <div className={s.boldValue}>300 шт</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className={s.borderSettings}>
-                  <img className={s.border} src={borderBlue} rel="borderBlue" />
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className={s.mainConinerOrder}>
-            <div className={s.mainBlocksOrder}>
-              <div className={s.newOrderTextContainerTwo}>
-                <div className={s.newOrderTextTwoBlock}>Заказ принят</div>
-              </div>
-              <div className={s.containerOrderBlocks}>
-                <div className={s.conrainerO}>
-                  <div className={s.orderNumberContainer}>
-                    <div className={s.boldValue}>Заказ #IQR000000289</div>
-                    <div>г.Москва,ул. Коломенская, д.28/7</div>
-                    <dvi>01.12.2021 - 18:30</dvi>
-                  </div>
-                  <div className={s.priceContainer}>
-                    <div className={s.priceValueBlock}>
-                      <div className={s.priceValueBlue}>Цена:</div>
-                      <div className={s.boldValue}>140 000,00 ₽</div>
-                    </div>
-                    <div>
-                      <div className={s.ValueBlock}>
-                        <div className={s.priceValueBlue}>Количество SKU:</div>
-                        <div className={s.boldValue}>300 шт</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className={s.borderSettings}>
-                  <img className={s.border} src={borderBlue} rel="borderBlue" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      {/*             ЗАКАЗЫ                 */}
+      <Order/>
+    {/* END  ЗАКАЗЫ */}
       <div>
         {/* block monitor */}
         <div className={s.taskAllBlocksContainer}>
@@ -348,7 +250,11 @@ let MainBlockOne = () => {
                 <div className={s.numberCityPosition}>1</div>
                 <div className={s.cityPhotoContainer}>
                   <div>
-                    <img className={s.cityLogo} src={logoCityTwo} rel="logoCityTwo" />
+                    <img
+                      className={s.cityLogo}
+                      src={logoCityTwo}
+                      rel="logoCityTwo"
+                    />
                   </div>
                   <div className={s.premiumStatusGold}>Gold</div>
                 </div>
@@ -376,7 +282,7 @@ let MainBlockOne = () => {
                 <div>
                   <div className={s.cityName}>г. Судогда</div>
                   <div className={s.fullCityName}>
-                   Владимирская область, г. Судогда, ул. Горького, д.16
+                    Владимирская область, г. Судогда, ул. Горького, д.16
                   </div>
                 </div>
               </div>
@@ -391,14 +297,18 @@ let MainBlockOne = () => {
                 <div className={s.numberCityPosition}>3</div>
                 <div className={s.cityPhotoContainer}>
                   <div>
-                    <img className={s.cityLogo} src={cityLogo} rel="logoCityThree" />
+                    <img
+                      className={s.cityLogo}
+                      src={cityLogo}
+                      rel="logoCityThree"
+                    />
                   </div>
                   <div className={s.premiumStatus}>Silver</div>
                 </div>
                 <div>
                   <div className={s.cityName}>г. Владимир</div>
                   <div className={s.fullCityName}>
-                  г. Владимир, просп. Ленина, д.29Б
+                    г. Владимир, просп. Ленина, д.29Б
                   </div>
                 </div>
               </div>
@@ -413,7 +323,11 @@ let MainBlockOne = () => {
                 <div className={s.numberCityPosition}>4</div>
                 <div className={s.cityPhotoContainer}>
                   <div>
-                    <img className={s.cityLogo} src={logoCityFour} rel="logoCityFour" />
+                    <img
+                      className={s.cityLogo}
+                      src={logoCityFour}
+                      rel="logoCityFour"
+                    />
                   </div>
                   <div className={s.premiumStatusIron}>Iron</div>
                 </div>
@@ -435,7 +349,11 @@ let MainBlockOne = () => {
                 <div className={s.numberCityPosition}>5</div>
                 <div className={s.cityPhotoContainer}>
                   <div>
-                    <img className={s.cityLogo} src={logoCityFive} rel="logoCityFive" />
+                    <img
+                      className={s.cityLogo}
+                      src={logoCityFive}
+                      rel="logoCityFive"
+                    />
                   </div>
                   <div className={s.premiumStatusIron}>Iron</div>
                 </div>

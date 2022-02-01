@@ -180,10 +180,31 @@
 
 }
 
+
 .showAll {
     font-size: 14px;
     color: #8A9AAF;
+    border: none;
+    background-color: white;
+    cursor: pointer;
 }
+
+.showAll:after {
+    background-color: rgba(0, 102, 255, 0.9);;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    color: #000000;
+}
+.showAll:hover:after,
+.showAll:focus:after {
+    width: 100%;
+}
+
 
 .mainConinerOrder {
     margin-bottom: 30px;
@@ -330,31 +351,33 @@
     width: 374px;
     height: 130px;
 }
-.childMainBlockMonitoring{
+
+.childMainBlockMonitoring {
     flex-grow: 1;
     display: flex;
     flex-direction: row;
 }
 
-.serverBlock{
+.serverBlock {
     margin: 24px 13px 24px 15px;
 }
-.server{
+
+.server {
     width: 70px;
     height: 82px;
 }
 
-.monitoringContainer{
+.monitoringContainer {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
 }
 
-.textBlock{
+.textBlock {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius:  0px 0px 0px 10px;
+    border-radius: 0px 0px 0px 10px;
     font-size: 9px;
     background: #0066FF;
     width: 110px;
@@ -363,16 +386,16 @@
 
 }
 
-.monitoringTextContainer{
+.monitoringTextContainer {
     display: flex;
     justify-content: end;
 }
 
-.photoMonitoringTitle{
+.photoMonitoringTitle {
     font-size: 17px;
 }
 
-.progressTitle{
+.progressTitle {
     margin-top: 5px;
     margin-right: 20px;
     color: #0066FF;
@@ -381,7 +404,8 @@
     justify-content: space-between;
     font-size: 11px;
 }
-.calendarBlock{
+
+.calendarBlock {
     margin-top: 10px;
     margin-right: 20px;
     font-size: 11px;
@@ -390,23 +414,24 @@
     justify-content: space-between;
 }
 
-.dateText{
-    margin-right: 60px ;
+.dateText {
+    margin-right: 60px;
 }
+
 /*            Выбор города               */
-.mainContainerChoseCity{
+.mainContainerChoseCity {
     margin-top: 30px;
     margin-left: 30px;
-    font-family:  'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     min-width: 602px;
 }
 
-.choseContainer{
+.choseContainer {
     display: flex;
     justify-content: space-between;
 }
 
-.mainContainerChoseBlocks{
+.mainContainerChoseBlocks {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -416,14 +441,14 @@
     box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.178);
 }
 
-.searchContainer{
+.searchContainer {
     padding-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.searchBlock{
+.searchBlock {
     display: flex;
     width: 582px;
     height: 30px;
@@ -432,11 +457,11 @@
     border: #0066FF 1px solid;
 }
 
-.searchTwo{
+.searchTwo {
     padding: 7px 10px 7px 10px;
 }
 
-.cityContainer{
+.cityContainer {
     border-bottom: 0.5px solid rgba(0, 102, 255, 0.5);
     display: flex;
     width: 602px;
@@ -445,99 +470,96 @@
     justify-content: space-between;
 }
 
-.cityBlocks{
+.cityBlocks {
     display: flex;
     align-items: center;
 
 }
 
-.numberCityPosition{
+.numberCityPosition {
     margin-left: 10px;
     margin-right: 20px;
 }
 
-.cityPhotoContainer{
+.cityPhotoContainer {
     display: flex;
     flex-direction: column;
     margin-right: 30px;
     align-items: center;
 }
 
-.cityLogo{
+.cityLogo {
     margin-top: 10px;
 }
 
-.premiumStatus{
+.premiumStatus {
     font-size: 10px;
     background-image: linear-gradient(43deg, #c2c1c1 0%, #888888 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.lineGradient{
+.lineGradient {
     width: 5px;
     height: 80px;
     background: linear-gradient(180deg, #C0C0C0 0%, #DCDCDC 100%);
 }
 
-.cityName{
+.cityName {
     color: #000000;
     font-size: 15px;
     margin-bottom: 6px;
 }
 
-.fullCityName{
+.fullCityName {
     color: rgba(0, 102, 255, 0.5);
     font-size: 12px;
 }
 
-.choseBlock{
+.choseBlock {
     display: flex;
     align-items: center;
-    
 }
 
-.choseText{
+.choseText {
     background-image: linear-gradient(43deg, #0066FF 50%, #0066FF 5%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transform: rotate(-90deg);
     font-size: 10px;
-    padding-top: 20px ;
-
+    padding-top: 20px;
 }
 
 /* Остальные блоки Выбора Городов 1,3,4,5*/
 
-.lineGradientOne{
+.lineGradientOne {
     width: 5px;
     height: 80px;
     background: linear-gradient(180deg, #FFD700 0%, #FFEA77 100%);
 }
 
-.premiumStatusGold{
+.premiumStatusGold {
     font-size: 10px;
     background-image: linear-gradient(43deg, #FFD700 100%, #FFEA77 0%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.premiumStatusIron{
+.premiumStatusIron {
     font-size: 10px;
     color: #C0C0C0;
 }
 
-.lineGradientIron{
+.lineGradientIron {
     width: 5px;
     height: 80px;
     background-color: #C0C0C0;
 }
 
-.cityContainerFive{
+.cityContainerFive {
     display: flex;
     width: 602px;
     height: 80px;
     flex-direction: row;
     justify-content: space-between;
 }
-
