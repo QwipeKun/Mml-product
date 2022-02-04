@@ -4,43 +4,26 @@ import borderBlue from "./../../svg/borderBlue.svg";
 import OrderCart from "./OrderCart/OrderCart";
 import OrderCartYellow from "./OrderCartYellow/OrderCartYellow";
 import { useState } from "react";
-import Modal from "./Modal.js";
+import NewModal from "./NewModal.jsx";
+import { CSSTransition } from "react-transition-group";
 
 let Order = () => {
-  const [modal, setModal] = useState({
-    modal1: false,
-    modal2: false,
-  });
+  const [modalActive, setModalActive] = useState(true);
 
   return (
     <div className={s.upperBlocksOrder}>
       <div>
         <div className={s.activeOrderBlock}>
           <div className={s.activeOrder}>Активные заказы (4)</div>
-          <button
-            className={s.showAll}
-            onClick={() =>
-              setModal({
-                ...modal,
-                modal1: true,
-              })
-            }
-          >
+          <button className={s.showAll} onClick={() => setModalActive(true)}>
             Посмотреть все
           </button>
-          <Modal
-            closeTimeoutMS={200}
-            isOpened={modal.modal1}
-            onModalClose={() => setModal({ ...modal, modal1: false })}
-          >
+          <NewModal active={modalActive} setActive={setModalActive}>
             <OrderCartYellow />
             <OrderCart />
             <OrderCart />
             <OrderCart />
-          </Modal>
-          <Modal title={"Modal 2 Title "} isOpened={modal.modal2}>
-            <OrderCart />
-          </Modal>
+          </NewModal>
         </div>
         <OrderCartYellow />
         <OrderCart />
