@@ -19,7 +19,7 @@
     position: relative;
     background-color: rgb(255, 255, 255);
     width: 374px;
-    height: 610px;
+    height: 700px;
     transform: scale(0.5);
     transition: 0.4s all;
     overflow-y: scroll;

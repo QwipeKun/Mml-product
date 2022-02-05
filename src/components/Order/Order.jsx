@@ -5,7 +5,7 @@ import { useState } from "react";
 import NewModal from "./NewModal.jsx";
 
 let Order = () => {
-  const [modalActive, setModalActive] = useState(true);
+  const [modalActive, setModalActive] = useState(false);
 
   return (
     <div className={s.upperBlocksOrder}>
@@ -13,7 +13,7 @@ let Order = () => {
         <div className={s.activeOrderBlock}>
           <div className={s.activeOrder}>Активные заказы (4)</div>
           <button className={s.showAll} onClick={() => setModalActive(true)}>
-            Посмотреть все
+          {modalActive ? "Скрыть" : "Посмотреть все"}
           </button>
         </div>
         <OrderCartYellow />

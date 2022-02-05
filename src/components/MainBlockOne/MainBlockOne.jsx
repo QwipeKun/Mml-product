@@ -4,17 +4,13 @@ import s from "./MainBlockOne.module.css";
 import iconSettings from "./../../svg/IconSettings.svg";
 import circle from "./../../svg/circle.svg";
 import score from "./../../svg/score.svg";
-import border from "./../../svg/border.svg";
-import borderBlue from "./../../svg/borderBlue.svg";
-import server from "./../../svg/server.svg";
-import lineGR from "./../../svg/lineGR.svg";
-import calendar from "./../../svg/calendar.svg";
 import searchTwo from "./../../svg/searchTwo.svg";
 import cityLogo from "./../../svg/cityLogo.svg";
 import logoCityTwo from "./../../svg/logoCityTwo.svg";
 import logoCityThree from "./../../svg/logoCityThree.svg";
 import logoCityFour from "./../../svg/logoCityFour.svg";
 import logoCityFive from "./../../svg/logoCityFive.svg";
+import MonitoringOrder from "../MonitoringOrder/MonitoringOrder/MoniroingOrder";
 
 let MainBlockOne = () => {
   return (
@@ -92,11 +88,13 @@ let MainBlockOne = () => {
         </div>
       </div>
       {/*             ЗАКАЗЫ                 */}
-      <Order/>
-    {/* END  ЗАКАЗЫ */}
-      <div>
+      <Order />
+      {/* END  ЗАКАЗЫ */}
         {/* block monitor */}
-        <div className={s.taskAllBlocksContainer}>
+
+        <MonitoringOrder />
+
+        {/* <div className={s.taskAllBlocksContainer}>
           <div>
             <div className={s.taskBlockMonitor}>
               <div className={s.activeOrder}>Заказы (3)</div>
@@ -220,8 +218,7 @@ let MainBlockOne = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </div> */}
       {/* Блок выбора города и поиск */}
       <div className={s.mainContainerChoseCity}>
         <div className={s.choseContainer}>
