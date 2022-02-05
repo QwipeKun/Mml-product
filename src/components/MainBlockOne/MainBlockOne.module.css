@@ -1,11 +1,12 @@
 .mainAllBlocks {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     flex-direction: row;
+    justify-content: center;
 }
 
 .mainOfficeBlock {
-    margin: 30px 30px 30px 56px;
+    margin: 30px 30px 30px 0px;
     max-width: 350px;
     max-height: 480px;
     background-size: cover;
@@ -34,7 +35,6 @@
 
 .blockOffice {
     display: flex;
-
     width: 350px;
     height: 480px;
     flex-direction: column;
@@ -423,7 +423,14 @@
     margin-top: 30px;
     margin-left: 30px;
     font-family: 'Raleway', sans-serif;
-    min-width: 602px;
+    max-width: 602px;
+}
+
+@media screen and (max-width: 425px) {
+    .mainContainerChoseCity{
+        width: 400px;
+        margin-left: 130px;
+    }
 }
 
 .choseContainer {
@@ -440,6 +447,13 @@
     height: 450px;
     box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.178);
 }
+
+@media screen and (max-width: 425px) {
+    .mainContainerChoseBlocks{
+        width: 400px;
+    }
+}
+
 
 .searchContainer {
     padding-top: 10px;
@@ -468,6 +482,12 @@
     height: 80px;
     flex-direction: row;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 425px) {
+    .cityContainer{
+        width: 400px;
+    }
 }
 
 .cityBlocks {
@@ -562,4 +582,10 @@
     height: 80px;
     flex-direction: row;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 425px) {
+    .cityContainerFive{
+        width: 400px;
+    }
 }

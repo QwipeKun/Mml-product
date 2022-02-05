@@ -4,11 +4,20 @@
     flex-direction: row;
 }
 
+
+
 .containerAllBlocksPurpose {
     font-family: 'Raleway', sans-serif;
     width: 754px;
     height: 450px;
     margin-left: 56px;
+}
+
+@media screen and (max-width: 425px) {
+    .containerAllBlocksPurpose{
+        width: 400px;
+        border: #000000 1px solid;
+    }
 }
 
 .purposeContainer {
@@ -31,6 +40,13 @@
     box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.178);
 }
 
+@media screen and (max-width: 425px) {
+    .blocksContainer{
+        width: 400px;
+        border: #000000 1px solid;
+    }
+}
+
 .catalog{
     height: 26px;
     font-size: 14px;
@@ -45,6 +61,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+@media screen and (max-width: 425px) {
+    .categories{
+        padding: 0;
+        width: 400px;
+        border: #000000 1px solid;
+    }
 }
 
 .tobaccoBlock{

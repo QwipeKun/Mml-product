@@ -14,7 +14,7 @@ let OrderCart = () =>{
                   <div className={s.orderNumberContainer}>
                     <div className={s.boldValue}>Заказ #IQR000000289</div>
                     <div>г.Москва,ул. Коломенская, д.28/7</div>
-                    <dvi>01.12.2021 - 18:30</dvi>
+                    <div>01.12.2021 - 18:30</div>
                   </div>
                   <div className={s.priceContainer}>
                     <div className={s.priceValueBlock}>
@@ -30,7 +30,7 @@ let OrderCart = () =>{
                   </div>
                 </div>
                 <div className={s.borderSettings}>
-                  <img className={s.border} src={borderBlue} rel="borderBlue" />
+                  <img className={s.border} src={borderBlue} rel="borderBlue"  alt="border"/>
                 </div>
               </div>
             </div>
