@@ -1,9 +1,6 @@
-import office from "./../../svg/Office.jpg";
+
 import Order from "../Order/Order";
 import s from "./MainBlockOne.module.css";
-import iconSettings from "./../../svg/IconSettings.svg";
-import circle from "./../../svg/circle.svg";
-import score from "./../../svg/score.svg";
 import searchTwo from "./../../svg/searchTwo.svg";
 import cityLogo from "./../../svg/cityLogo.svg";
 import logoCityTwo from "./../../svg/logoCityTwo.svg";
@@ -11,82 +8,12 @@ import logoCityThree from "./../../svg/logoCityThree.svg";
 import logoCityFour from "./../../svg/logoCityFour.svg";
 import logoCityFive from "./../../svg/logoCityFive.svg";
 import MonitoringOrder from "../MonitoringOrder/MonitoringOrder/MoniroingOrder";
+import TitleCompany from "../TitleCompany/TitleCompanyComponent/TitleCompany";
 
 let MainBlockOne = () => {
   return (
     <div className={s.mainAllBlocks}>
-      <div
-        className={s.mainOfficeBlock}
-        style={{ backgroundImage: `url(${office})` }}
-      >
-        <div className={s.blockOffice}>
-          <div className={s.test}>
-            <div className={s.officeText}>
-              <img
-                className={s.iconSett}
-                src={iconSettings}
-                rel="iconSettings"
-              />
-            </div>
-          </div>
-          <div className={s.blockCompany}>
-            <div className={s.blockNameCompany}>
-              <div className={s.nameCompany}>ООО «ФЛОРА»</div>
-            </div>
-            <div>
-              <div className={s.nameCity}>г. Лебедь-Рубиновый</div>
-            </div>
-          </div>
-          <div className={s.infoBlocks}>
-            <div className={s.infoBlockChildOne}>
-              <div className={s.infoItem}>
-                <div className={s.buyBlock}>
-                  <div className={s.buyItem}>Предоплата</div>
-                  <div className={s.buyItem}>
-                    17 000
-                    <img className={s.circle} src={circle} rel="circle" />
-                  </div>
-                </div>
-              </div>
-              <div className={s.infoItem}>
-                <div className={s.purposeBlock}>
-                  <div className={s.buyItem}>Цели</div>
-                  <div className={s.purpose}>8</div>
-                </div>
-              </div>
-              <div className={s.infoItem}>
-                <div className={s.tasksBlock}>
-                  <div className={s.buyItem}>Задания</div>
-                  <div className={s.purpose}>3</div>
-                </div>
-              </div>
-            </div>
-            <div className={s.infoBlockChildTwo}>
-              <div className={s.infoItem}>
-                <div className={s.waitingBlock}>
-                  <div className={s.waiting}>Ожидается получение</div>
-                  <div className={s.waiting}>
-                    1960
-                    <img className={s.circle} src={score} rel="score" />
-                  </div>
-                </div>
-              </div>
-              <div className={s.infoItem}>
-                <div className={s.purposeBlock}>
-                  <div className={s.buyItem}>Выполнено</div>
-                  <div className={s.purpose}>54</div>
-                </div>
-              </div>
-              <div className={s.infoItem}>
-                <div className={s.tasksBlock}>
-                  <div className={s.buyItem}>На модерации</div>
-                  <div className={s.purpose}>4</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <TitleCompany />
       {/*  Заказы  */}
       <Order />
       {/* Мониторинг */}

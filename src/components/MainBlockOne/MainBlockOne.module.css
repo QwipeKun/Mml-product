@@ -426,10 +426,9 @@
     max-width: 602px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 750px) {
     .mainContainerChoseCity{
-        width: 400px;
-        margin-left: 130px;
+        display: none;
     }
 }
 
