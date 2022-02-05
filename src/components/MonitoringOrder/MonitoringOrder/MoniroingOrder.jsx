@@ -11,7 +11,7 @@ let MonitoringOrder = () => {
       <div>
         <div className={s.taskBlockMonitor}>
           <div className={s.activeOrder}>Заказы (3)</div>
-          <div className={s.showAll}> Модерация </div>
+          <div className={s.showAllMonitoring}> Модерация </div>
           <button className={s.showAll} onClick={() => setModalActive(true)}>
             {modalActive ? "Скрыть" : "Посмотреть все"}
           </button>

@@ -189,6 +189,14 @@
     cursor: pointer;
 }
 
+.showAllMonitoring {
+    font-size: 14px;
+    color: #8A9AAF;
+    background-color: white;
+}
+
+
+
 .showAll:after {
     background-color: rgba(0, 102, 255, 0.9);;
     display: block;

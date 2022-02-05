@@ -4,8 +4,8 @@ import './Modal.css'
 
 let Modal = ({active, setActive, children}) => {
     return(
-        <div className={active ? "modal active" : "modal"} onClick={() => setActive(false)}>
-            <div className= {active ? "modal__content active" : "modal__content"} onClick={e => e.stopPropagation()}>
+        <div className={active ? "modalOrder active" : "modalOrder"} onClick={() => setActive(false)}>
+            <div className= {active ? "modalOrder__content active" : "modalOrder__content"} onClick={e => e.stopPropagation()}>
                 {children}
             </div>
         </div>
