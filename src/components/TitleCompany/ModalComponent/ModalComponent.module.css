@@ -6,10 +6,15 @@
 }
 
 .mainOfficeBlock {
-    max-width: 50px;
-    max-height: 50px;
+    max-width: 60px;
+    max-height: 60px;
     border-radius: 100%;
     background-size: cover;
+    opacity: 0.9;
+}
+
+.mainOfficeBlock:hover{
+    opacity: 1;
 }
 
 .officePick {
@@ -43,7 +48,7 @@
     border-radius: 5px;
     padding: 5px;
     margin-top: 258px;
-    color: #FFFFFF;
+    color: #000000;
     font-family: 'Raleway', sans-serif;
 }
 
