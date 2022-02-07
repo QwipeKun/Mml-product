@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Mml-product/static/css/main.dbe5454f.css",
+    "main.js": "/Mml-product/static/js/main.0cb7d104.js",
+    "static/js/787.c39012cf.chunk.js": "/Mml-product/static/js/787.c39012cf.chunk.js",
+    "static/media/logoCityThree.svg": "/Mml-product/static/media/logoCityThree.2affd71d27d615557e58e58c749ebbe0.svg",
+    "static/media/logoCityFour.svg": "/Mml-product/static/media/logoCityFour.b66f4bf1bce0549001396f07c7a113fa.svg",
+    "static/media/logoCityFive.svg": "/Mml-product/static/media/logoCityFive.46a0084d233721b4c8abe3825d8f21fb.svg",
+    "static/media/cityLogo.svg": "/Mml-product/static/media/cityLogo.210bcba40f91c641662f90245d01742a.svg",
+    "static/media/logoCityTwo.svg": "/Mml-product/static/media/logoCityTwo.8b0dd6b37930c38080cee2cc9b90833d.svg",
+    "static/media/Office.jpg": "/Mml-product/static/media/Office.368d5b3e00bc694c6abb.jpg",
+    "static/media/server.svg": "/Mml-product/static/media/server.fef5f9e0c193defe3662148ad21bb459.svg",
+    "static/media/AvatarBe.jpg": "/Mml-product/static/media/AvatarBe.729191f481a8c1afb2d6.jpg",
+    "static/media/bell.svg": "/Mml-product/static/media/bell.72d48abc2b7eed2297e6795b8f7ea1b1.svg",
+    "static/media/Vector.svg": "/Mml-product/static/media/Vector.ca184ba759e2b2afd413e0acb2c6d387.svg",
+    "static/media/browser.svg": "/Mml-product/static/media/browser.4aa179dfae775c3e4978311436547e17.svg",
+    "static/media/IconSettings.svg": "/Mml-product/static/media/IconSettings.47301c6b33e6af6b7c0ed9c93ddfb6d0.svg",
+    "static/media/lineGR.svg": "/Mml-product/static/media/lineGR.9bae8fcb3f96bdefffb98f34b84d2195.svg",
+    "static/media/circle.svg": "/Mml-product/static/media/circle.a011ca4253c31e5d6672641e4d8dffcb.svg",
+    "index.html": "/Mml-product/index.html",
+    "static/media/score.svg": "/Mml-product/static/media/score.a5af762d8cda6b8ed7574df63053b151.svg",
+    "static/media/searchTwo.svg": "/Mml-product/static/media/searchTwo.b9f30c669f8d0d1b8c3e511a50fb1f20.svg",
+    "static/media/search.svg": "/Mml-product/static/media/search.925addfcc1c8cdeea66455c17ea464b9.svg",
+    "static/media/calendar.svg": "/Mml-product/static/media/calendar.edb0d3f560715100457ec9cf388382c1.svg",
+    "static/media/more.svg": "/Mml-product/static/media/more.88980dec406ab4aa1cb4d50317874f55.svg",
+    "static/media/borderBlue.svg": "/Mml-product/static/media/borderBlue.e0f988140f5886c8b6f1d39dd189cef1.svg",
+    "static/media/border.svg": "/Mml-product/static/media/border.75b54c7d974f3a57d84bfcf18c604dd5.svg",
+    "static/media/stick.svg": "/Mml-product/static/media/stick.a946d692be5289358a8b5ce5a65c425b.svg",
+    "main.dbe5454f.css.map": "/Mml-product/static/css/main.dbe5454f.css.map",
+    "main.0cb7d104.js.map": "/Mml-product/static/js/main.0cb7d104.js.map",
+    "787.c39012cf.chunk.js.map": "/Mml-product/static/js/787.c39012cf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbe5454f.css",
+    "static/js/main.0cb7d104.js"
+  ]
+}
