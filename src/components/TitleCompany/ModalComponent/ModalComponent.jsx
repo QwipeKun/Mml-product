@@ -6,7 +6,7 @@ import s from "./ModalComponent.module.css";
 let ModalComponent = () => {
   return (
       <div>Карточка компании
-    <div
+    {/* <div
       className={s.mainOfficeBlock}
       style={{ backgroundImage: `url(${office})`}}
     >
@@ -70,7 +70,7 @@ let ModalComponent = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
     </div>
   );
 };

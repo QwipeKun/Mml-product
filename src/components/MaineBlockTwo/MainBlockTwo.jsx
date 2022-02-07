@@ -1,6 +1,11 @@
 import s from "./MainBlockTwo.module.css";
+import classnames from 'classnames'
+
 
 let MainBlockOne = () => {
+
+
+
   return (
     <div className={s.mainBlockTwoContainer}>
       <div className={s.containerAllBlocksPurpose}>
@@ -10,7 +15,7 @@ let MainBlockOne = () => {
         </div>
         <div className={s.blocksContainer}>
           <div className={s.categories}>
-            <div className={s.tobaccoBlock}>
+            <div className={classnames(s.rrpBlock, s.rrpBlockSelected)}>
               <div>ТАБАК</div>
             </div>
             <div className={s.rrpBlock}>

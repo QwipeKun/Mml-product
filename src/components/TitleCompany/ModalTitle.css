@@ -3,7 +3,7 @@
     height: 100%;
     width: 100%;
     background: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(3px);
     position: fixed;
     top: 0;
     left: 0;
@@ -23,8 +23,7 @@
     transform: scale(0.5);
     transition: 0.4s all;
     overflow-y: scroll;
-    right: 15%;
-    bottom: 15%;
+    margin-bottom: 23%;
 }
 
 .modalTitle__content::-webkit-scrollbar{
@@ -35,6 +34,7 @@
 .modalTitle__content{
     -ms-overflow-style: none;
     scrollbar-width: none;
+    animation: modalHide 1s;
 }
 
 .modalTitle.active{
@@ -45,7 +45,7 @@
 
 .modalTitle__content.active{
     transform: scale(1);
-    animation: modalShow 1s;
+    animation: modalShow 0.8s;
 }
 
 @keyframes modalShow{
@@ -60,6 +60,20 @@
         transform:  translateY(0);
     }
 }
+
+@keyframes modalHide{
+    100%{ 
+        opacity: 0;
+        transform: translateY(-400px);
+    }
+    50%{
+        opacity: 1;
+    }
+    0%{
+        transform:  translateY(0);
+    }
+}
+
 
 
 @media screen and (max-width: 1170px) {

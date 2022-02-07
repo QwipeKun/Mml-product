@@ -3,7 +3,7 @@
     height: 100%;
     width: 100%;
     background: rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(3px);
     position: fixed;
     top: 0;
     left: 0;
@@ -32,6 +32,7 @@
 .modal__content{
     -ms-overflow-style: none;
     scrollbar-width: none;
+    animation: modalHide 0.8s;
 }
 
 .modal.active{
@@ -41,4 +42,31 @@
 
 .modal__content.active{
     transform: scale(1);
+    animation: modalShow 0.8s;
+}
+
+@keyframes modalShow{
+    0%{ 
+        opacity: 0;
+        transform: translateY(-400px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        transform:  translateY(0);
+    }
+}
+
+@keyframes modalHide{
+    100%{ 
+        opacity: 0;
+        transform: translateY(-400px);
+    }
+    50%{
+        opacity: 1;
+    }
+    0%{
+        transform:  translateY(0);
+    }
 }
